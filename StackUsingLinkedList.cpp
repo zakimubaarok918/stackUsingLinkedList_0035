@@ -105,6 +105,7 @@ int main()
                 cout << "Stack is empty. Cannot pop." << endl;
             }
             break;
+
         case 4:
             cout << "Exiting program." << endl;
             break;
@@ -112,4 +113,7 @@ int main()
             cout << "Invalid choice. Please try again." << endl;    
             break;
         }
-        cout << endl;    
+        cout << endl;  
+    }
+    return 0;
+};          
