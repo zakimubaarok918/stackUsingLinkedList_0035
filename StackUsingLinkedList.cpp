@@ -55,4 +55,12 @@ public:
         }
         else
         {
-            
+            Node *current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " ";
+                current = current->next;
+            }
+            cout << endl;
+        }
+    }
